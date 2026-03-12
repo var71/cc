@@ -1,0 +1,22 @@
+prac-4 KVM commands 
+
+sudo apt update && sudo apt upgrade
+
+sudo grep -c "svm\|vmx" /proc/cpuinfo
+
+kvm-ok
+
+sudo apt install cpu-checker
+
+sudo apt install qemu-kvm virt-manager libvirt-daemon-systemm libvirt-clients bridge-utils-y
+
+sudo systemctl enable libvirt
+
+sudo systemctl start libvirt
+
+sudo systemctl status libvirt
+
+sudo usermod -aG kvm "username" ( username acc to the system)
+
+sudo usermod -ag libvirt "username"
+
