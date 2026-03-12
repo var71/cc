@@ -1,3 +1,5 @@
+checking the user:whoami
+
 prac-9 openstack
 
 sudo snap install microstack --classic --beta
