@@ -1,3 +1,5 @@
+checking the user:whoami
+
 prac-4 KVM commands 
 
 sudo apt update && sudo apt upgrade
